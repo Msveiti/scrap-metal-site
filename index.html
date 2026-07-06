@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>מתכות ישראל | קניית ומכירת מתכות, ברזל וגרוטאות</title>
+    <!-- Title: Israel Metals | Buying and selling metals, iron and scrap -->
+    <meta name="description" content="קניית ומכירת מתכות וגרוטאות במחירים הטובים ביותר. פינוי ברזל, נחושת, אלומיניום, מצברים ופירוק מפעלים. שירות מהיר, אמין ומקצועי.">
+    
+    <!-- Google Site Verification (Paste your code here) -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+
+    <!-- Tailwind CSS & Google Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 (Free icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Rubik', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans">
+
+    <!-- Header & Navigation -->
+    <header class="fixed top-0 left-0 right-0 bg-white/95 shadow-md z-50 backdrop-blur-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-amber-600 tracking-tight flex items-center gap-2">
+                <span>מתכות ישראל</span> <!-- Israel Metals -->
+            </a>
+            
+            <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none" aria-label="תפריט">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+
+            <nav id="mobile-menu" class="hidden md:flex md:items-center md:space-x-reverse md:space-x-8 text-lg font-medium absolute md:static top-full left-0 right-0 bg-white md:bg-transparent shadow-md md:shadow-none p-5 md:p-0 space-y-4 md:space-y-0">
+                <a href="#home" class="block md:inline-block text-gray-700 hover:text-amber-600 transition">דף הבית</a>
+                <a href="#services" class="block md:inline-block text-gray-700 hover:text-amber-600 transition">השירותים שלנו</a>
+                <a href="#why" class="block md:inline-block text-gray-700 hover:text-amber-600 transition">למה אנחנו</a>
+                <a href="#gallery" class="block md:inline-block text-gray-700 hover:text-amber-600 transition">גלריה</a>
+                <a href="#contact" class="block md:inline-block text-gray-700 hover:text-amber-600 transition">צור קשר</a>
+            </nav>
+
+            <div class="hidden md:block">
+                <a href="tel:0502617751" class="bg-amber-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-amber-700 transition inline-block">
+                    התקשרו עכשיו
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1717667745934-53091623e8ee?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+        <div class="absolute inset-0 bg-slate-900/80"></div>
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-12 relative z-10">
+            <div class="flex-1 text-center md:text-right">
+                <span class="text-amber-500 font-bold tracking-wider uppercase block mb-3">פתרונות מיחזור מתקדמים</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-white">
+                    קניית ומכירת מתכות וגרוטאות במחירים הטובים ביותר
+                </h1>
+                <p class="text-lg text-slate-200 mb-8 max-w-xl leading-relaxed">
+                    מפנים וממחזרים את כל סוגי המתכות: נחושת, ברזל, אלומיניום, פליז, מצברים ונירוסטה. שירות מהיר ומקצועי עם הגעה עד אליכם ותשלום הוגן במקום.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="tel:0502617751" class="bg-amber-500 text-slate-950 font-bold px-8 py-4 rounded-xl shadow-lg hover:bg-amber-400 transition text-center text-lg">
+                        התקשרו: 050-2617751
+                    </a>
+                    <a href="https://wa.me/972502617751?text=שלום,%20אשמח%20לקבל%20פרטים%20לגבי%20פינוי%20מתכת" target="_blank" class="bg-emerald-600 text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:bg-emerald-500 transition text-center text-lg flex items-center justify-center gap-2">
+                        <i class="fab fa-whatsapp text-2xl"></i> שלחו הודעה בוואטסאפ
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 hidden md:flex justify-center">
+                <img src="https://images.unsplash.com/photo-1739025530417-3d57a2e685f2?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="גרוטאות מתכת" class="rounded-2xl shadow-2xl max-h-96 object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">השירותים שלנו</h2>
+                <p class="text-gray-600 max-w-lg mx-auto">אנו מתמחים במתן פתרונות מקיפים לעסקים, מפעלים ולקוחות פרטיים</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition duration-300">
+                    <span class="text-4xl block mb-6 text-amber-600"><i class="fas fa-bolt"></i></span>
+                    <h3 class="text-xl font-bold mb-3">קניית נחושת ואלומיניום</h3>
+                    <p class="text-gray-600 leading-relaxed">קניית כבלי חשמל, מזגנים, צינורות נחושת ומוצרי אלומיניום שונים במחירים מעודכנים לפי הבורסה.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition duration-300">
+                    <span class="text-4xl block mb-6 text-amber-600"><i class="fas fa-dumpster"></i></span>
+                    <h3 class="text-xl font-bold mb-3">פינוי ברזל וגרוטאות</h3>
+                    <p class="text-gray-600 leading-relaxed">פינוי פסולת ברזל מאתרי בנייה, מוסכים, ומחסנים. אנו מגיעים עם כלי רכב מתאימים לפינוי מהיר.</p>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-2xl border border-gray-100 hover:shadow-xl transition duration-300">
+                    <span class="text-4xl block mb-6 text-amber-600"><i class="fas fa-industry"></i></span>
+                    <h3 class="text-xl font-bold mb-3">פירוק מפעלים וקונסטרוקציות</h3>
+                    <p class="text-gray-600 leading-relaxed">עבודות פירוק מורכבות של סככות, מכונות תעשייתיות ישנות, ומבני מתכת בצורה בטוחה ומקצועית.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">למה לבחור בנו?</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-shekel-sign"></i></div>
+                    <h3 class="font-bold text-xl mb-2">מחיר הוגן ומעודכן</h3>
+                    <p class="text-gray-600">תשלום לפי מחירי השוק העדכניים, במזומן או העברה.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-truck-fast"></i></div>
+                    <h3 class="font-bold text-xl mb-2">הגעה מהירה</h3>
+                    <p class="text-gray-600">פינוי תוך 24 שעות ברוב האזורים, גם בשעות הערב.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-weight-scale"></i></div>
+                    <h3 class="font-bold text-xl mb-2">שקילה מדויקת</h3>
+                    <p class="text-gray-600">משקלים דיגיטליים מכוילים, קיבול עד 5 טון.</p>
+                </div>
+                <div class="text-center p-6 bg-white rounded-2xl shadow-sm">
+                    <div class="text-4xl text-amber-600 mb-4"><i class="fas fa-recycle"></i></div>
+                    <h3 class="font-bold text-xl mb-2">מיחזור ירוק</h3>
+                    <p class="text-gray-600">דאגה לאיכות הסביבה, מחזור חוקי ומאושר.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">גלריית מתכות</h2>
+                <p class="text-gray-600 max-w-lg mx-auto">סוגי המתכות והחומרים הנפוצים שאנו קונים וממחזרים באופן שוטף</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-md">
+                    <img src="https://images.unsplash.com/photo-1541617392762-9bd12653bd12?q=80&w=988&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="נחושת" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4"><h4 class="font-bold text-lg">נחושת ופליז</h4></div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-md">
+                    <img src="https://images.unsplash.com/photo-1769012334805-eb47a65b5d54?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="ברזל ופלדה" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4"><h4 class="font-bold text-lg">ברזל וגרוטאות</h4></div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-md">
+                    <img src="https://images.unsplash.com/photo-1690296874663-ba8da56a7df2?q=80&w=1485&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="p-4"><h4 class="font-bold text-lg">אלומיניום ונירוסטה</h4></div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl bg-white shadow-md">
+                    <img src="https://images.unsplash.com/photo-1764185800646-f75f7e16e465?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="מכונות תעשייתיות" class="w-full h-48 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-4"><h4 class="font-bold text-lg">מכונות תעשייתיות</h4></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">צרו קשר לקבלת הצעת מחיר</h2>
+                <p class="text-gray-600">שלחו לנו הודעה או התקשרו ישירות כדי לקבל הערכת מחיר מהירה עבור המתכת שלכם</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <!-- Direct Contact Details (right column in RTL) -->
+                <div class="space-y-6">
+                    <h3 class="text-2xl font-bold text-slate-800">פרטי התקשרות</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        נשמח לעמוד לשירותכם בכל ימות השבוע (מלבד שבת). אנו מגיעים לכל חלקי הארץ עם משקל דיגיטלי מדויק ותשלום במזומן או בהעברה בנקאית במקום.
+                    </p>
+                    
+                    <div class="space-y-4 pt-4">
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl text-amber-600"><i class="fas fa-phone"></i></span>
+                            <div>
+                                <span class="block text-sm text-gray-500">טלפון להתקשרות</span>
+                                <a href="tel:0502617751" class="text-lg font-bold text-amber-600 hover:underline">050-2617751</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl text-emerald-600"><i class="fab fa-whatsapp"></i></span>
+                            <div>
+                                <span class="block text-sm text-gray-500">וואטסאפ מהיר</span>
+                                <a href="https://wa.me/972502617751" target="_blank" class="text-lg font-bold text-emerald-600 hover:underline">לחצו למעבר לוואטסאפ</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <span class="text-2xl text-gray-500"><i class="fas fa-map-marker-alt"></i></span>
+                            <div>
+                                <span class="block text-sm text-gray-500">אזור שירות</span>
+                                <span class="text-lg font-bold">פריסה ארצית (כל הארץ)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Form Embed (left column in RTL) -->
+                <div class="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+                    <!-- 
+                        Replace the src below with your own Google Form embed URL.
+                        Make sure the form language is Hebrew for RTL support.
+                        You can adjust the height (e.g., 800px) to fit all fields.
+                    -->
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdY-PSb2YnIYsGUtDBO0ucSPmodUJis6U2YsdQDRr7VQcNYSw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0"
+                    style="border: none; min-height: 800px; display: block;">
+                    >Loading…</iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="mb-4">&copy; 2026 מתכות ישראל. כל הזכויות שמורות.</p>
+            <p class="text-xs text-slate-600">שירותי פינוי, קנייה ומחזור מתכות וברזל בפריסה ארצית במזומן.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('#mobile-menu a[href^="#"]');
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (pageYOffset >= sectionTop) current = section.getAttribute('id');
+            });
+            navLinks.forEach(link => {
+                link.classList.remove('text-amber-600', 'font-bold');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('text-amber-600', 'font-bold');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
